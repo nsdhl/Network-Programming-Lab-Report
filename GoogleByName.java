@@ -27,11 +27,6 @@ public class GoogleByName {
 
             }
 
-            // InetAddress[] addresses = InetAddress.getAllByName("www.google.com");
-            // for(InetAddress ipAddress :addresses ) {
-            // // System.out.println(ipAddress);
-            // System.out.println(ipAddress.getHostAddress());
-
         } catch (
 
         UnknownHostException ex) {

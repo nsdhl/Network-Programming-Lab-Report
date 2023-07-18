@@ -11,7 +11,6 @@ public class interfaceProgram {
             NetworkInterface ni = myInterfaces.nextElement();
             System.out.println(ni);
             System.out.println("Display Name is:" + ni.getDisplayName());
-            // System.out.println("Hardware Address is:"+ni.getHardwareAddress());
             byte[] macAddress = ni.getHardwareAddress();
             if (macAddress != null) {
                 for (byte i : macAddress) {
@@ -24,9 +23,7 @@ public class interfaceProgram {
 
         }
 
-        // NetworkInterface ni = NetworkInterface.getByName("lo");
-        // NetworkInterface ni =
-        // NetworkInterface.getByInetAddress(InetAddress.getByName("127.0.0.1"));
+        
     }
 }
 

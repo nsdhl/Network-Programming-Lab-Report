@@ -19,3 +19,4 @@ public class SimpleCacheRequest extends CacheRequest {
             return out.toByteArray();
     }
 }
+

@@ -15,10 +15,8 @@ public class constructUrl {
         System.out.println(u.getRef());
 
         // Using Relative URL
-        URL u1 = new URL(u, "hahaha.html");
-        System.out.println(u1);
 
-        URL u2 = new URL(u, "hyaaaaaa.html");
+        URL u2 = new URL(u, "index.html");
         System.out.println(u2);
 
     }
