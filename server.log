@@ -1,0 +1,8 @@
+Aug 12, 2023 3:18:25 PM NetworkServerWLogging main
+INFO: Starting Network Server...
+Aug 12, 2023 3:18:25 PM NetworkServerWLogging main
+INFO: Server listening on port 8080
+Aug 12, 2023 3:18:49 PM NetworkServerWLogging main
+INFO: Accepted connection from /127.0.0.1
+Aug 12, 2023 3:18:49 PM NetworkServerWLogging main
+INFO: Connection closed with /127.0.0.1
