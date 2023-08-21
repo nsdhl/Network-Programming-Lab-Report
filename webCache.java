@@ -51,7 +51,7 @@ public class webCache {
     public static void main(String[] args) {
         webCache cache = new webCache();
         try {
-            String url = "http://www.google.com";
+            String url = "https://www.example.com";
             String dataFromCache = cache.getCacheData(url);
             if (dataFromCache != null) {
                 System.out.println("Data from cache: " + dataFromCache);
